@@ -1,7 +1,6 @@
 import React from 'react';
 import { StyleSheet, Text, View, TouchableOpacity, ImageBackground, TextInput, StatusBar} from 'react-native';
 const HomeScreenBckImg = { uri: "https://cdn.pixabay.com/photo/2013/02/21/19/06/beach-84531_960_720.jpg" };
- 
 class HomeScreen extends React.Component {
      state={
        city:""
